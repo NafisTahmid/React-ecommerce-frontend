@@ -21,7 +21,7 @@ A scalable, role-based e-commerce platform built with **React**, **Redux**, and 
 
 ## 📂 Source Code
 
-- **Frontend:** *(private or available upon request / hosted on GitHub)*  
+- **Frontend:** https://github.com/NafisTahmid/React-ecommerce-frontend.git  
 - **Backend:** *(private or available upon request / hosted on GitHub)*
 
 ---
