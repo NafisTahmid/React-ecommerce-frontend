@@ -98,10 +98,10 @@ function ProductScreen( ) {
                               <ListGroup.Item>
                                 <Row>
                                   <Col>
-                                    Status:
+                                    Available:
                                   </Col>
                                   <Col>
-                                    {product.countInStock > 0 ? 'In stock' : 'Sold out'}
+                                    {product.countInStock > 0 ? product.countInstock : 'Sold out'}
                                   </Col>
                                 </Row>
                               </ListGroup.Item>

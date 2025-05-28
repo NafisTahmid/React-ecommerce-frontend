@@ -7,6 +7,7 @@ import Loader from '../components/Loader'
 import Message from '../components/Message'
 import Paginate from '../components/Paginate'
 import { listProducts } from '../actions/productActions'
+import ProductCarousel from '../components/ProductCarousel';
 
 function HomeScreen() {
     const dispatch = useDispatch()
@@ -23,7 +24,8 @@ function HomeScreen() {
     }, [dispatch, keyword])
 
     return (
-        <div>
+        <div className="mt-5">
+            {keyword === "" && <ProductCarousel/>}
             <h1 className="py-3">Latest Products</h1>
             {loading ? <Loader /> : error ? <Message variant="danger">{error}</Message> : (
                 <>
